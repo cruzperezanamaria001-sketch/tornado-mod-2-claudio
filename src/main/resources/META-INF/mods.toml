@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="tornadomod"
+version="${mod_version}"
+displayName="Tornado Mod"
+description='''
+Realistic tornadoes, fire tornadoes, supercells and cyclones for Minecraft Forge 1.20.1.
+Tornadoes form from the ground up, lift animals, players and blocks, and are fully controllable with the /tornado command.
+'''
+
+[[dependencies.tornadomod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tornadomod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
